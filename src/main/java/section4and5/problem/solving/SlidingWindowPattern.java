@@ -1,3 +1,5 @@
+package section4and5.problem.solving;
+
 public class SlidingWindowPattern {
 
     public static void main(String[] args){

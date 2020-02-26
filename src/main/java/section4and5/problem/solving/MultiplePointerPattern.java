@@ -1,3 +1,5 @@
+package section4and5.problem.solving;
+
 import java.util.HashMap;
 
 public class MultiplePointerPattern {

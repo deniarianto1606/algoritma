@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93891fb4-2aba-4a8f-87c9-dbcfd0868320" name="Default Changelist" comment="" />
+    <list default="true" id="93891fb4-2aba-4a8f-87c9-dbcfd0868320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FrequencyPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplePointerPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Section5Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SlidingWindowPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FrequencyPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiplePointerPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Section5Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SlidingWindowPattern.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1YH2SNJd4epQbOoLS0NpoOkP4U3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,42 +47,70 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Section5Quiz">
-    <configuration name="FrequencyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FrequencyPattern" />
-      <module name="algorithm" />
+  <component name="RunManager" selected="Application.Recursion">
+    <configuration name="PrintNumberRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section7and8.recursion.PrintNumberRecursion" />
+      <module name="algoritma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section7and8.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplePointerPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiplePointerPattern" />
-      <module name="algorithm" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section7and8.recursion.Recursion" />
+      <module name="algoritma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section7and8.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Section5Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section5Quiz" />
-      <module name="algorithm" />
+      <option name="MAIN_CLASS_NAME" value="section4and5.Section5Quiz" />
+      <module name="algoritma" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SlidingWindowPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowPattern" />
-      <module name="algorithm" />
+      <option name="MAIN_CLASS_NAME" value="section4and5.SlidingWindowPattern" />
+      <module name="algoritma" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section7and8.recursion.SumRange" />
+      <module name="algoritma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section7and8.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.SumRange" />
+        <item itemvalue="Application.PrintNumberRecursion" />
         <item itemvalue="Application.Section5Quiz" />
         <item itemvalue="Application.SlidingWindowPattern" />
-        <item itemvalue="Application.MultiplePointerPattern" />
-        <item itemvalue="Application.FrequencyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -88,6 +139,7 @@
       <workItem from="1582585201349" duration="12793000" />
       <workItem from="1582636613630" duration="5842000" />
       <workItem from="1582666038459" duration="8732000" />
+      <workItem from="1582753032650" duration="3938000" />
     </task>
     <servers />
   </component>
@@ -95,22 +147,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1236" height="504" key="GridCell.Tab.0.bottom" timestamp="1582684429819">
+    <state x="1650" y="504" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582753153771">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1236" height="504" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582684429819" />
-    <state width="1236" height="504" key="GridCell.Tab.0.center" timestamp="1582684429819">
+    <state x="1650" y="504" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582753153771" />
+    <state x="1721" y="611" width="400" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582753161965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1236" height="504" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582684429819" />
-    <state width="1236" height="504" key="GridCell.Tab.0.left" timestamp="1582684429819">
+    <state x="1721" y="611" width="400" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1440@0.0.2560.1440" timestamp="1582753161965" />
+    <state x="1700" y="477" key="FileChooserDialogImpl" timestamp="1582753700206">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1236" height="504" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582684429819" />
-    <state width="1236" height="504" key="GridCell.Tab.0.right" timestamp="1582684429819">
+    <state x="1700" y="477" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1582753700206" />
+    <state width="1236" height="410" key="GridCell.Tab.0.bottom" timestamp="1582756973039">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1236" height="504" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582684429819" />
+    <state width="1236" height="410" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582756973039" />
+    <state width="1236" height="410" key="GridCell.Tab.0.center" timestamp="1582756973039">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1236" height="410" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582756973039" />
+    <state width="1236" height="410" key="GridCell.Tab.0.left" timestamp="1582756973039">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1236" height="410" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582756973039" />
+    <state width="1236" height="410" key="GridCell.Tab.0.right" timestamp="1582756973039">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1236" height="410" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582756973039" />
     <state width="1236" height="504" key="GridCell.Tab.1.bottom" timestamp="1582684429819">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -127,6 +191,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1236" height="504" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582684429819" />
+    <state x="1423" y="365" key="SettingsEditor" timestamp="1582753708523">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1423" y="365" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1582753708523" />
     <state x="1628" y="547" key="com.intellij.ide.util.TipDialog" timestamp="1582666039794">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -140,12 +208,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MultiplePointerPattern.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/section4and5/problem/solving/MultiplePointerPattern.java</url>
           <line>47</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Section5Quiz.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/section4and5/problem/solving/Section5Quiz.java</url>
           <line>64</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
