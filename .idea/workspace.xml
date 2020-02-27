@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93891fb4-2aba-4a8f-87c9-dbcfd0868320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FrequencyPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplePointerPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Section5Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SlidingWindowPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FrequencyPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultiplePointerPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Section5Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SlidingWindowPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/section7and8/recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section7and8/recursion/Recursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +130,7 @@
       <workItem from="1582636613630" duration="5842000" />
       <workItem from="1582666038459" duration="8732000" />
       <workItem from="1582753032650" duration="3938000" />
+      <workItem from="1582773678108" duration="2213000" />
     </task>
     <servers />
   </component>
