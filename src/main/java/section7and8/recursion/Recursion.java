@@ -18,21 +18,41 @@ public class Recursion {
         System.out.println(power(2,0));
         System.out.println(factorial(7));
 
-        System.out.println(rec.productOfArray(new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9))));
+        System.out.println(rec.productOfArray(new int[]{1,2,3,4}));
+        System.out.println(rec.productOfArray(new int[]{1,2,3,10}));
+
+        System.out.println(recursiveRange(6));
+        System.out.println(recursiveRange(10));
+
+
+        System.out.println(fibonacci(4));
     }
 
-    private int productOfArray(List<Integer> nums) {
-        int result = 1;
-        if(nums.isEmpty()){
+    private static int fibonacci(int i) {
+        int result = 0;
+        if(i == 0 || i == 1){
             return 1;
         }
-
-        result = result * nums.get(0);
-        nums.remove(0);
-        productOfArray(nums);
-        return productOfArray(nums);
+        return result + fibonacci(i + 1);
     }
 
+    private static int recursiveRange(int i) {
+        if(1 == i){
+            return 1;
+        }
+        return i + (recursiveRange(--i));
+    }
+
+    private int productOfArray(int[] nums) {
+        return product(nums, 0);
+    }
+
+    private int product(int[] nums, int index){
+        if(index == (nums.length -1)){
+            return nums[index];
+        }
+        return nums[index] * product(nums, ++index);
+    }
     private static int factorial(int num) {
         if(num == 1){
             return 1;
