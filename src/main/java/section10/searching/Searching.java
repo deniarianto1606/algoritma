@@ -7,7 +7,7 @@ public class Searching {
         System.out.println(binarySearchInt(sortedNums, 12));
         System.out.println(binarySearchIntRecursive(sortedNums, 0, sortedNums.length, 12));
 
-        System.out.println(matchedString("wowomgzomg","omg"));
+        System.out.println(matchedString("lorie loled","loled"));
     }
 
     private static int matchedString(String str1, String str2) {
@@ -27,7 +27,6 @@ public class Searching {
                     break;
                 }
             }
-            System.out.println();
         }
         return result;
     }
