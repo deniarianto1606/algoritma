@@ -2,26 +2,34 @@ package section10.searching;
 
 public class Searching {
     public static void main(String[] args) {
-//        System.out.println(linearSearchInt(new int[]{3, 2, 3}, 3));
-//        int[] sortedNums = new int[]{1,2,3,4,5,6,7,8,9,10,11,13,14,15};
-//        System.out.println(binarySearchInt(sortedNums, 12));
-//        System.out.println(binarySearchIntRecursive(sortedNums, 0, sortedNums.length, 12));
+        System.out.println(linearSearchInt(new int[]{3, 2, 3}, 3));
+        int[] sortedNums = new int[]{1,2,3,4,5,6,7,8,9,10,11,13,14,15};
+        System.out.println(binarySearchInt(sortedNums, 12));
+        System.out.println(binarySearchIntRecursive(sortedNums, 0, sortedNums.length, 12));
 
         System.out.println(matchedString("wowomgzomg","omg"));
     }
 
-    private static boolean matchedString(String str1, String str2) {
-        boolean match = false;
+    private static int matchedString(String str1, String str2) {
+        int jLeft = 0;
+        int result = 0;
         for(int i = 0; i < str1.length(); i++){
-            for(int j = 0; j < str2.length(); j++){
+            for(int j = jLeft; j < str2.length(); j++){
+                if(jLeft == (str2.length() - 1)){
+                    jLeft=0;
+                    result++;
+                }
                 if(Character.toString(str1.charAt(i)).equals(Character.toString(str2.charAt(j)))){
-                    match = true;
-                    System.out.print(Character.toString(str2.charAt(j)));
+                    jLeft++;
+                    break;
+                }else{
+                    jLeft = 0;
+                    break;
                 }
             }
             System.out.println();
         }
-        return true;
+        return result;
     }
 
     private static int binarySearchInt(int[] nums, int searchValue) {
