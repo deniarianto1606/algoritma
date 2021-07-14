@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93891fb4-2aba-4a8f-87c9-dbcfd0868320" name="Default Changelist" comment="Merge branch 'master' of https://github.com/deniarianto1606/algoritma&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/section7and8/recursion/Recursion.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/section/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treetraversal/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treetraversal/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treetraversal/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hashtable/HashTableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/treetraversal/BFSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/treetraversal/DFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewpreparation/BlibliPreparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewpreparation/TravelokaPreparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algoritma.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hashtable/HashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hashtable/HashTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,32 +52,27 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest.hash">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BlibliPreparation">
+    <configuration name="BlibliPreparation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewpreparation.BlibliPreparation" />
+      <module name="algoritma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewpreparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BFSTest.bst_test_return" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algoritma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="treetraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="treetraversal" />
-      <option name="MAIN_CLASS_NAME" value="treetraversal.BFSTest" />
-      <option name="METHOD_NAME" value="bst_test_return" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlibliPreparation" />
         <item itemvalue="JUnit.HashTableTest.hash" />
         <item itemvalue="JUnit.DFSTest.dfs_inOrder" />
         <item itemvalue="JUnit.DFSTest.dfs_postOrder" />
         <item itemvalue="JUnit.DFSTest.dfs_preOrder" />
-        <item itemvalue="JUnit.BFSTest.bst_test_return" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +188,7 @@
       <workItem from="1584081186450" duration="4930000" />
       <workItem from="1618628246416" duration="13515000" />
       <workItem from="1618724084424" duration="6161000" />
+      <workItem from="1626230472405" duration="2581000" />
     </task>
     <servers />
   </component>

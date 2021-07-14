@@ -7,6 +7,6 @@ public class HashTableTest {
     @Test
     public void hash(){
         HashTable hashTable = new HashTable();
-        hashTable.hash("orangered", 10);
+        hashTable.hashV1("orangered", 10);
     }
 }
